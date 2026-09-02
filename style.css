@@ -4,3 +4,39 @@
   font-style: normal;
 }
 
+#background{
+    background-color: #e9ecef;
+    color: #003049;
+
+    text-align: center;
+    width: 75%;
+    margin: 8% 10% 20% 5%;
+    /* cima baixo direita esquerda */
+}
+
+body{
+    background-color: #e9ecef;
+    color: #003049;
+}
+
+.Hello{
+    font-family: "Palette Mosaic", system-ui;
+    font-style: italic;
+    color: #ee6c93;
+    font-size: 80px;
+    text-align: center;
+}
+
+#watermark img{
+    position: fixed;
+    bottom: 0;
+    opacity: 0.5;
+    max-width: 5%;
+}
+
+#watermark{
+    position: relative;
+    display: inline-block;
+    position: fixed;
+    top: 300px;
+}
