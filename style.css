@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-#background{
+.container{
     background-color: #e9ecef;
     color: #003049;
 
@@ -28,15 +28,15 @@ body{
 }
 
 #watermark img{
-    position: fixed;
     bottom: 0;
     opacity: 0.5;
-    max-width: 5%;
+    max-width: 100%;
 }
 
 #watermark{
-    position: relative;
-    display: inline-block;
-    position: fixed;
-    top: 300px;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
 }
