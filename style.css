@@ -1,42 +1,90 @@
+
+/*tags*/
+
+body{
+    background-color: #e9ecef;
+}
+
+/*ids*/
+
+#watermark{
+     height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+        #watermark img{
+            bottom: 0;
+            opacity: 0.5;
+            max-width: 100%;
+        }
+
+
+#textcontainer{
+    background-color: #fbfbfc;
+    color: #003049;
+
+    text-align: center;
+    width: 30%;
+    font-family: "Kirang Haerang", system-ui;
+    /*margin: 8% 10% 20% 5%;
+     cima baixo direita esquerda */
+}
+
+#container{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+#Hello{
+    font-family: "Palette Mosaic", system-ui;
+    font-style: italic;
+    color: #ee6c93;
+    font-size: 90px;
+    text-align: center;
+    transition: color font-size 0.3s ease-out;
+    transition-duration: 0.7s;
+}
+/*classes*/
+
+
+
+        .Hello:hover{
+            color: #8A2846;
+            font-size: 110px;
+        }
+
+.destaque1{
+    color: #003049;
+    width: 300px;
+    text-align: center;
+
+    font-family: "Bytesized", sans-serif;
+    font-size: 40px;
+    text-shadow: 0 4px 8px rgba(20, 19, 19, 0.404);
+}
+
+.subtitle{
+    font-family: "Kirang Haerang", system-ui;
+    font-size: 20px;
+    color: #003049;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fontes*/
+
 .palette-mosaic-regular {
   font-family: "Palette Mosaic", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.container{
-    background-color: #e9ecef;
-    color: #003049;
-
-    text-align: center;
-    width: 75%;
-    margin: 8% 10% 20% 5%;
-    /* cima baixo direita esquerda */
-}
-
-body{
-    background-color: #e9ecef;
-    color: #003049;
-}
-
-.Hello{
-    font-family: "Palette Mosaic", system-ui;
-    font-style: italic;
-    color: #ee6c93;
-    font-size: 80px;
-    text-align: center;
-}
-
-#watermark img{
-    bottom: 0;
-    opacity: 0.5;
-    max-width: 100%;
-}
-
-#watermark{
-    height: 90px;
-    width: 90px;
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
+.bytesized-regular {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
