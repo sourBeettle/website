@@ -7,6 +7,35 @@ body{
 
 /*ids*/
 
+#menu{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    background-color: #fbfbfc;
+    height: 27px;
+}
+
+ #menu a{
+    text-decoration: underline;
+    color: #443025;
+    font-family: "Kirang Haerang", system-ui;
+    font-size: 20px;
+    }
+ 
+ #menu a:hover{
+    color: #c08552;
+    font-size: 25px;
+    }
+
+
+   
+
+    
+
 #watermark{
      height: 90px;
     width: 90px;
@@ -47,14 +76,18 @@ body{
     transition: color font-size 0.3s ease-out;
     transition-duration: 0.7s;
 }
+
+#Hello:hover{
+            color: #3e1613;
+            font-size: 110px;
+        }
+
+
 /*classes*/
 
 
 
-        #Hello:hover{
-            color: #3e1613;
-            font-size: 110px;
-        }
+       
 
 .destaque1{
     color: #443025;
