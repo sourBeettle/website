@@ -23,7 +23,7 @@ body{
 
 #textcontainer{
     background-color: #fbfbfc;
-    color: #003049;
+    color: #443025;
 
     text-align: center;
     width: 30%;
@@ -41,7 +41,7 @@ body{
 #Hello{
     font-family: "Palette Mosaic", system-ui;
     font-style: italic;
-    color: #ee6c93;
+    color: #c08552;
     font-size: 90px;
     text-align: center;
     transition: color font-size 0.3s ease-out;
@@ -52,16 +52,16 @@ body{
 
 
         #Hello:hover{
-            color: #8A2846;
+            color: #3e1613;
             font-size: 110px;
         }
 
 .destaque1{
-    color: #003049;
+    color: #443025;
     width: 300px;
     text-align: center;
 
-    font-family: "Bytesized", sans-serif;
+    font-family: "Homemade Apple", cursive;
     font-size: 40px;
     text-shadow: 0 4px 8px rgba(20, 19, 19, 0.404);
 }
@@ -83,8 +83,9 @@ body{
   font-style: normal;
 }
 
-.bytesized-regular {
-  font-family: "Bytesized", sans-serif;
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
