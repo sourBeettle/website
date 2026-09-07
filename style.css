@@ -21,13 +21,13 @@ body{
 
  #menu a{
     text-decoration: underline;
-    color: #443025;
+    color: #f0c0d0;
     font-family: "Kirang Haerang", system-ui;
     font-size: 20px;
     }
  
  #menu a:hover{
-    color: #c08552;
+    color: #ffdde8;
     font-size: 25px;
     }
 
@@ -59,6 +59,7 @@ body{
     font-family: "Kirang Haerang", system-ui;
     /*margin: 8% 10% 20% 5%;
      cima baixo direita esquerda */
+     box-shadow: 0 4px 8px #4f4f537a;
 }
 
 #container{
@@ -70,7 +71,7 @@ body{
 #Hello{
     font-family: "Palette Mosaic", system-ui;
     font-style: italic;
-    color: #c08552;
+    color: #ffd3e2;
     font-size: 90px;
     text-align: center;
     transition: color font-size 0.3s ease-out;
@@ -78,7 +79,7 @@ body{
 }
 
 #Hello:hover{
-            color: #3e1613;
+            color: #d4acb9;
             font-size: 110px;
         }
 
@@ -90,7 +91,7 @@ body{
        
 
 .destaque1{
-    color: #443025;
+    color: #192650;
     width: 300px;
     text-align: center;
 
