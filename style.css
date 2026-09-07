@@ -27,7 +27,7 @@ body{
     }
  
  #menu a:hover{
-    color: #ffdde8;
+    color: #da97ac;
     font-size: 25px;
     }
 
@@ -71,7 +71,7 @@ body{
 #Hello{
     font-family: "Palette Mosaic", system-ui;
     font-style: italic;
-    color: #ffd3e2;
+    color: #e4b9c6;
     font-size: 90px;
     text-align: center;
     transition: color font-size 0.3s ease-out;
